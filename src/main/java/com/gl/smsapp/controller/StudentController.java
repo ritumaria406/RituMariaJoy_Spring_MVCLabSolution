@@ -25,7 +25,7 @@ public class StudentController {
 		
 		List<Student> students = studentService.findAll();
 		theModel.addAttribute("students",students);
-		return "list-students"; // /WEB-INF/views/list-books.jsp
+		return "list-students"; 
 		
 	}
 	
